@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             NavigationPage.HasBackButton="False"
+             x:Class="GarnerLifeAppRevised.Views.OAuthNativeFlowPage">
+    
+    <StackLayout >
+        <Frame BackgroundColor="#96d1ff" Padding="24" CornerRadius="0">
+            <Image Source="Garner_Life.png"
+                   VerticalOptions="Center" 
+                   HeightRequest="64" />
+        </Frame>
+        <Entry x:Name="txtEmail" Placeholder="Enter Your Email" Margin="0,10,0,10"/>
+        <Entry x:Name="txtPassword" Placeholder="Enter Your Password" Margin="0,10,0,10"/>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Button Text="Login" TextColor="#96d1ff"  Clicked="LoginButton_Clicked" BorderColor="#96d1ff" CornerRadius="20" HeightRequest="50" WidthRequest="50" BorderWidth="5" Margin="5,10,0,10" BackgroundColor="Transparent" FontAttributes="Bold"/>
+            <Button Grid.Column="1" Text="Not a User?" TextColor="#96d1ff"  Clicked="NewUserButton_Clicked" BorderColor="#96d1ff" CornerRadius="20" HeightRequest="50" WidthRequest="50" BorderWidth="5" Margin="0,10,5,10" BackgroundColor="Transparent" FontAttributes="Bold"/>
+        </Grid>
+        <Line X1="500"
+              Y1="0"
+              X2="0"
+              Y2="0"
+              Stroke="Black"
+              StrokeThickness="5" 
+              Margin="15,20,15,10"></Line>
+        <ImageButton Source="GoogleLogo.png"
+                    HorizontalOptions="Center"
+                    Margin="15,20,15,10"
+                    Clicked="OnGoogleLoginClicked" />
+
+        <ImageButton Source="FacebookLogo.png"
+                    HorizontalOptions="Center"
+                    Margin="15,20,15,10"
+                    Clicked="OnFacebookLoginClicked" />
+       
+    </StackLayout>
+    
+</ContentPage>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "600467985308",
+    "firebase_url": "https://garner-life.firebaseio.com",
+    "project_id": "garner-life",
+    "storage_bucket": "garner-life.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:600467985308:android:00c58b8da7b1c31a20ee59",
+        "android_client_info": {
+          "package_name": "com.garnerlife.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "600467985308-ea7a16to0deb73tr6nr3313etg84jnv9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.garnerlife.app",
+            "certificate_hash": "49f4a04f8f0a4e3073e95068868cb9ee396aa02c"
+          }
+        },
+        {
+          "client_id": "600467985308-cea3nadtucu1fng8i3774ht98haraajc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQ4sYl7FRr1KCd9vZhkqaAroOuiLXKROw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "600467985308-cea3nadtucu1fng8i3774ht98haraajc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
